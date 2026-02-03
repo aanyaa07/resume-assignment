@@ -6,24 +6,22 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'Aanya Agarwal',
+    title: 'Economics & Data Science Undergraduate | Data Analytics Enthusiast',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'I am an Economics and Data Science undergraduate at Christ University with a strong interest in data analytics, technology, and business strategy.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'I have hands-on experience through Python-based projects, data internships, and finance coursework.\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
-      '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+      'I actively participate in student organizations and aim to build data-driven, impactful solutions by combining analytical thinking, creativity, and leadership.',
+    tagline: 'Data • Economics • Technology • Analytics',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
-    description: "Portfolio website showcasing your education, research, projects, and experience.",
+    title: 'Aanya Agarwal – Economics & Data Science Portfolio',
+    description: "Portfolio website showcasing education, internships, projects, certifications, and data analytics experience.",
   },
 
   animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
