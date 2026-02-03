@@ -24,7 +24,11 @@ const siteConfig = {
     description: "Portfolio website showcasing education, internships, projects, certifications, and data analytics experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Economics & Data Science Student',
+    'Data Analytics Enthusiast',
+    'Python Developer',
+    'Future Data Scientist'],
+  ],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -39,21 +43,16 @@ const siteConfig = {
 
   // Static blog entries. Use getAsset so the URL respects NEXT_PUBLIC_BASE_PATH / next.config.basePath
   // Add more entries here as you add more static HTML blog files under public/static_page/
-  blogs: [
-    {
-      title: 'Your Blog Title',
-      url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
-    },
-  ],
+  blogs: [ ],
 
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Christ University Bannerghatta Road Campus',
+      degree: 'BSc Economics with Data Science (GPA: 3.75/4)',
+      year: '2025–2028',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
+      description: ['Focus on economics, data analytics, programming, and business strategy'],
     },
     {
       institution: 'Another Institution',
